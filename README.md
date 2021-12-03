@@ -57,5 +57,39 @@ The output is as follows:
 
 Clearly, there is much less data for the metrics that are manually inputted and the data that is automatically gathered.
 
+# Analysis
+
+#### Users Manually Log Their Weight
 To see whether the distribution of manually logged weights was even among the users who did log their weight, I made a pie chart in Google Sheets.
-![Percentage of Manual Reports in the WeightLog File by ID](![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/528d0de3-a685-48e4-9d13-1215506c0506/Untitled.png)
+
+![Percentage of Manual Reports in the WeightLog File by ID](https://user-images.githubusercontent.com/95492345/144663466-1978480e-4fce-4337-a2b7-980500dbca9a.png)
+
+In the pie chart above, over 80% of all manual weight logs are given by just ***2 users***.
+Therefore, my **reccommendation** to Bellabeat is to make as many aspects of their products and app automatic recorded as possible and not to market their app as something completely customizable yet users have to manually input information.
+
+#### Steps and Calories
+One of the biggest measures that users look at is how many steps they walk and how many calories they burn. Therefore, I've analyzed users habits and how many calories they burned. Below is a plot showing how many steps users took and how many calories they burned. They are colored by the total distance they traveled as well.
+
+![Total Steps and Calories, shaded by Total Distance](https://user-images.githubusercontent.com/95492345/144665791-b75d4c9c-a811-47fb-bb5b-9108912f0b17.png)
+
+Here, it's clear that higher steps doesn't necessarily mean that that user burned more calories. Also, in the areas where Total Steps are low but Calories are high, some of those points are dark blue, indicating that their total distance wasn't very high either. Thus, my **reccommendation** is that Bellabeat markets their products for a wide audience and show people that they don't need to be fitness buffs to get a good workout and burn calories. 
+
+Another analysis that I've done to truly find out who is using these smart devices is a plot of Average Steps and Average Distance. 
+
+!Average Steps vs Average Distance](https://user-images.githubusercontent.com/95492345/144666239-e76db46a-f533-47d4-ae37-afbdbaa3b8dd.png)
+
+The very strong linear correlation shows a wide range of users and a clear correlation between how many steps users took on average and how far they went as well. There are very high and very low values showing a very wide range of types of users further supporting the reccommendation that products should be marketed towards everyone and emphasize how you don't have to be already fit or on a fitness journey. 
+
+#### Intensities and Calories
+Besides just analyzing how steps relate to calories, it's important to consider how intense these users workout. A shorter workout that is also more intense is still an indication of who these users are. Below scatterplots of various intensities and how many calories were burned and are shaded by how many minutes each user worked out for.
+
+![Very Active vs Calories](https://user-images.githubusercontent.com/95492345/144668521-48a8631f-e4bc-48cb-9c7b-39be1ffb832f.png)
+
+As you can see, these data are clustered aroung lower distances, but also have a wide range of calories. However, the color is not evenly distributed, and many of the lighter blue points (aka longer time) are clustered around lower distances and lower calories. These users are working out for a very long time yet not burning as many calories as they might expect. I propose that Bellabeat offer insights into users' individual activity and offer tips and reccommendations about how they can improve their workouts. 
+
+![Moderately Active vs Calories](https://user-images.githubusercontent.com/95492345/144668548-19ce4373-f632-468e-ac53-dc32222be3dc.png)
+
+The distribution of points in this plot are centered in lower distances but, again, the calories are widely distributed with some very high values and some very low values. The colors range largely in the higher values yet
+
+![Lightly Active vs Calories](https://user-images.githubusercontent.com/95492345/144668587-3eb38b74-0a14-47a4-bc25-775a6a1ce6c5.png)
+
