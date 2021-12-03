@@ -3,7 +3,7 @@ Google Data Analytics Capstone Project by Aditi Dalal
 
 # Background
 ## About Bellabeat
-Bellabeat is a wellness company for women that produces high-tech smart-devices to monitor women's health and fitness. They are a small company but have the potential to become a major player in the smart-device market. Urška Sršen, cofounder and Chief Creative Officer, believes that analyzing past fitness data will help the company find new growth opportunities.
+Bellabeat is a wellness company for women that produces high-tech smart-devices to monitor women's health and fitness. They are a small company but have the potential to become a major player in the smart-device market.
 
 ## Major Stakeholders
  - **Urška Sršen:** Bellabeat’s cofounder and Chief Creative Officer
@@ -59,7 +59,7 @@ Clearly, there is much less data for the metrics that are manually inputted and 
 
 # Analysis
 
-### Users Manually Log Their Weight
+#### Users Manually Log Their Weight
 To see whether the distribution of manually logged weights was even among the users who did log their weight, I made a pie chart in Google Sheets.
 
 ![Percentage of Manual Reports in the WeightLog File by ID](https://user-images.githubusercontent.com/95492345/144663466-1978480e-4fce-4337-a2b7-980500dbca9a.png)
@@ -67,7 +67,7 @@ To see whether the distribution of manually logged weights was even among the us
 In the pie chart above, over 80% of all manual weight logs are given by just ***2 users***.
 Therefore, my **reccommendation** to Bellabeat is to make as many aspects of their products and app automatic recorded as possible and _not_ to market their app as something completely customizable yet users have to manually input information.
 
-### Steps and Calories
+#### Steps and Calories
 One of the biggest measures that users look at is how many steps they walk and how many calories they burn. Therefore, I've analyzed users habits and how many calories they burned. Below is a plot showing how many steps users took and how many calories they burned. They are colored by the total distance they traveled as well.
 
 ![Total Steps and Calories, shaded by Total Distance](https://user-images.githubusercontent.com/95492345/144665791-b75d4c9c-a811-47fb-bb5b-9108912f0b17.png)
@@ -80,7 +80,7 @@ Another analysis that I've done to truly find out who is using these smart devic
 
 The very strong linear correlation shows a wide range of users and a clear correlation between how many steps users took on average and how far they went as well. There are very high and very low values showing a very wide range of types of users further supporting the reccommendation that products should be marketed towards everyone and emphasize how you don't have to be already fit or on a fitness journey. 
 
-### Intensities and Calories
+#### Intensities and Calories
 Besides just analyzing how steps relate to calories, it's important to consider how intense these users workout. A shorter workout that is also more intense is still an indication of who these users are. Below scatterplots of various intensities and how many calories were burned and are shaded by how many minutes each user worked out for.
 
 ![Very Active Distance vs Calories](https://user-images.githubusercontent.com/95492345/144668521-48a8631f-e4bc-48cb-9c7b-39be1ffb832f.png)
