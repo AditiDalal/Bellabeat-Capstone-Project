@@ -14,7 +14,7 @@ Bellabeat is a wellness company that produces high-tech smart-devices to monitor
 Identify trends in smart device usage using data from FitBit Fitness Tracker App and apply them to Bellabeat customers and products to help influence Bellabeat marketing strategy.
 
 # Preparing the Data
-Data was collected from a Public Domain dataset called [Kaggle: Fitness Tracker Data](https://www.kaggle.com/arashnic/fitbit). This dataset contains tracker information from 30 FitBit users and was collected via survey by Amazon Mechanical Turk in the span of 31 days from 3/12/2016 to 5/12/2016. 
+Data was collected from a Public Domain dataset called [Kaggle: Fitness Tracker Data](https://www.kaggle.com/arashnic/fitbit). This dataset contains tracker information from 30 FitBit users and was collected via survey by Amazon Mechanical Turk in the span of 61 days from 3/12/2016 to 5/12/2016. 
 
 ## Limitations
  - Sample size is small (30) and not representative of a large population
